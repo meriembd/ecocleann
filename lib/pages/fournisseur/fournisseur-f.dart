@@ -105,7 +105,7 @@ class _FournisseurProfileState extends State<FournisseurProfile> {
   Widget build(BuildContext context) {
     return Scaffold(
       key: widget._scaffoldKey,
-      drawer: Menu(),
+      drawer: Menu(), // Use Menu() here for the fournisseur's menu
       body: Stack(
         children: [
           Center(
